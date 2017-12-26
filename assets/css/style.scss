@@ -2,6 +2,9 @@
 ---
 
 @import "{{ site.theme }}";
-.header {
-position: absolute;
-}
+body [
+maxwidth:1170px;
+padding: 0px;
+margin: 0px;
+float: none;
+]
